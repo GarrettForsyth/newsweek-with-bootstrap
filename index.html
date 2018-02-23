@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Tutorial</title>
+      <!--test compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <!-- Popper JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+      <!-- Customized CSS -->
+      <link rel="stylesheet" href="assets/stylesheets/master.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+  </head>
+  <body>
+
+  <header>
+    <div id="header" class="container">
+      <div class="row">
+        <div class="header-left col-lg-4 col-md-7 col-4">
+          <div class="dropdown float-left">
+            <button id="edition" type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+              U.S Edition
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">U.K Edition</a>
+              <a class="dropdown-item" href="#">International</a>
+            </div>
+          </div>
+        <date class="float-left">Fri, Feb 16 2018 </date>
+        </div>
+        <div class="col-lg-4 header-middle">
+          <h1 id="logo-xlg" class="text-center">Newsweek</h1>
+
+        </div>
+        <div class="header-right col-lg-4 col-md-5 col-8 float-right">
+          <button id="sub" type="button" class="btn float-right">Subscribe ></button>
+          <button id="sign-in" type="button" class="btn float-right">Sign In</button>
+        </div>
+        
+      </div>
+      <div id="logo-lg" class="row hide">
+        <h1>Newsweek</h1>
+      </div>
+
+      <nav id="nav-global" class="navbar navbar-expand-sm">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">U.S.</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">World</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Business</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tech & Science</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Culture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Health</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Opinion</a>
+          </li>
+          <li class="nav-item">
+            <a id="green" class="nav-link" href="#">Green Rankings</a>
+          </li>
+          <form class="form-inline" action="#" method="post">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" >
+            <button class="btn btn-danger" type=submit">Search</button>
+            
+          </form>
+        </ul>
+
+      </nav>
+
+  </header>
+
+  <div id="main-container" class="container">
+    <div class="row">
+      <div id="featured-coord" class="col-lg-8 col-mid 12 col-12">
+        <img class="featured-image" src="assets/images/feature-image.jpg" alt="politican looking stern"/>
+        <h1 class="feature-title">Senate Rejects All Four Immigration Reform Proposals</h1>
+        <span class="feature-desc">Two proposals that woudl ahve provided Dreamers with a pathway to citizenship and provided funding for Trump's border wall failed. </span>
+      </div>
+      <div  class="hide-small col-lg-4">
+        <h3 class="nav-header">Latest Headlines</h3>
+        <ul id="nav-latest-headlines" class="nav nav-list flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trump Impeachment Parties Try to Entice Congress</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Should the Dems Run Against Trump? Or on the Economy?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Flolirda Killer Expressed Racist Abuse Online</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Man Accused of Attack on Planned Parenthood Clinic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Prime Minister Holds Crisis Talks After Sex Scandal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Where's the Evidence Assad Used Sarin Gas On His People</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Israel Prepares to Take On Iran and Hezbollah in Syria</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="article-teaser">Are Melania's parents On Programs Trump Wants Cut?</h3>
+    <div class="row">
+
+      <div id="secondary-article" class="col-lg-5 col-md-5 col-12">
+        <img class="teaser-image" src="assets/images/secondary-feature.jpg" alt="crying children"/>
+        <h2 class="article-title">Judge Napolitano: Teachers Should Carry Guns</h2>
+        <span class="article-desc">He envisioned a plan where teachers were quietly trained with firearms.  </span>
+      </div>
+      
+    </div>
+
+
+    <div class="row"> <div id="latest-news-2" class="col-lg-6 hide">
+        <h3 class="nav-header">Latest Headlines</h3>
+        <ul id="nav-latest-headlines" class="nav nav-list flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trump Impeachment Parties Try to Entice Congress</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Should the Dems Run Against Trump? Or on the Economy?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Flolirda Killer Expressed Racist Abuse Online</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Man Accused of Attack on Planned Parenthood Clinic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Prime Minister Holds Crisis Talks After Sex Scandal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Where's the Evidence Assad Used Sarin Gas On His People</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Israel Prepares to Take On Iran and Hezbollah in Syria</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  </body>
+
+</html>
